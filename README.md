@@ -1,6 +1,6 @@
-# SoftWind
+# Hn Svelte Copy
 
-Experimental editor built with vite sveltejs/kit and windicss. Proof of concept.
+An excecise of Hn Svelte
 
 ## Usage
 

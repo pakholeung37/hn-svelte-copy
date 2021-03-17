@@ -8,8 +8,8 @@ const pkg = JSON.parse(readFileSync(join(cwd(), "package.json")));
 
 /** @type {import('vite').UserConfig} */
 export default {
-  plugins: [WindiCSS.default()],
-  ssr: {
-    noExternal: Object.keys(pkg.dependencies || {}),
-  },
+    plugins: [WindiCSS.default()],
+    ssr: {
+        noExternal: Object.keys(pkg.dependencies || {}),
+    },
 };
