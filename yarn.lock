@@ -31,15 +31,15 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@sveltejs/adapter-node@next":
-  version "1.0.0-next.7"
-  resolved "https://registry.npm.taobao.org/@sveltejs/adapter-node/download/@sveltejs/adapter-node-1.0.0-next.7.tgz#0e8c9114b019f480ab1bcf6d8af101999732e0eb"
-  integrity sha1-DoyRFLAZ9ICrG89tivEBmZcy4Os=
+"@sveltejs/adapter-node@1.0.0-next.8":
+  version "1.0.0-next.8"
+  resolved "https://registry.npm.taobao.org/@sveltejs/adapter-node/download/@sveltejs/adapter-node-1.0.0-next.8.tgz#4f25f270d1f22a933c7c565f1d56b3829f4342b7"
+  integrity sha1-TyXycNHyKpM8fFZfHVazgp9DQrc=
 
-"@sveltejs/kit@next":
-  version "1.0.0-next.49"
-  resolved "https://registry.npm.taobao.org/@sveltejs/kit/download/@sveltejs/kit-1.0.0-next.49.tgz#993f7d7ec299f6d1a3fb2688c44f1b8c6769ee54"
-  integrity sha1-mT99fsKZ9tGj+yaIxE8bjGdp7lQ=
+"@sveltejs/kit@1.0.0-next.51":
+  version "1.0.0-next.51"
+  resolved "https://registry.npm.taobao.org/@sveltejs/kit/download/@sveltejs/kit-1.0.0-next.51.tgz#f6e91e8a5ba3494c58a4c5410d45b54b14fc4c81"
+  integrity sha1-9ukeilujSUxYpMVBDUW1SxT8TIE=
   dependencies:
     "@svitejs/vite-plugin-svelte" "^0.11.0"
     cheap-watch "^1.0.3"
@@ -198,9 +198,9 @@ detect-indent@^6.0.0:
   resolved "https://registry.npm.taobao.org/detect-indent/download/detect-indent-6.0.0.tgz#0abd0f549f69fc6659a254fe96786186b6f528fd"
   integrity sha1-Cr0PVJ9p/GZZolT+lnhhhrb1KP0=
 
-esbuild@^0.9.2:
+esbuild@^0.9.3:
   version "0.9.3"
-  resolved "https://registry.npm.taobao.org/esbuild/download/esbuild-0.9.3.tgz#09293a0b824159c6aa2488d1c6c22f57d8448f74"
+  resolved "https://registry.npm.taobao.org/esbuild/download/esbuild-0.9.3.tgz?cache=0&sync_timestamp=1615969242449&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fesbuild%2Fdownload%2Fesbuild-0.9.3.tgz#09293a0b824159c6aa2488d1c6c22f57d8448f74"
   integrity sha1-CSk6C4JBWcaqJIjRxsIvV9hEj3Q=
 
 estree-walker@^2.0.1:
@@ -599,12 +599,12 @@ vite-plugin-windicss@^0.8.4:
     "@windicss/plugin-utils" "0.8.4"
     windicss "^2.4.5"
 
-vite@^2.1.0:
-  version "2.1.1"
-  resolved "https://registry.npm.taobao.org/vite/download/vite-2.1.1.tgz#13c7a7a5665b435f28fe8549caab181e0ad9af7b"
-  integrity sha1-E8enpWZbQ18o/oVJyqsYHgrZr3s=
+vite@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.npm.taobao.org/vite/download/vite-2.1.2.tgz#0aecaf6d34112b24536df1a14cd8d74fdcab6e20"
+  integrity sha1-CuyvbTQRKyRTbfGhTNjXT9yrbiA=
   dependencies:
-    esbuild "^0.9.2"
+    esbuild "^0.9.3"
     postcss "^8.2.1"
     resolve "^1.19.0"
     rollup "^2.38.5"
