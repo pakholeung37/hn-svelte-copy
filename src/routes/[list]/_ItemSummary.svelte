@@ -1,18 +1,6 @@
-<script context="module" lang="ts">
-    export type Item = {
-        id: string;
-        domain: string;
-        url: string;
-        title: string;
-        type: string;
-        time_ago: string;
-        points: string;
-        user: string;
-        comments_count: number;
-    };
-</script>
-
 <script lang="ts">
+    import type { Item } from "$lib/types";
+
     export let item: Item;
     export let index;
 </script>
